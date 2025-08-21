@@ -146,3 +146,20 @@ The project follows Python conventions with:
 - `input_size`: Image input dimensions [896, 896] for Swin encoder
 - `window_size`: Swin Transformer window size (7)
 - `decoder_layer`: Number of decoder layers (10)
+
+## Python Environment Management
+
+**CRITICAL**: Always use the `.venv-clean` environment for ALL Python package installations. This prevents damaging other Python environments on the system.
+
+### Required Commands:
+- **Install packages**: `".venv-clean\Scripts\python.exe" -m pip install <package>`
+- **Run Python**: `".venv-clean\Scripts\python.exe"`
+- **Check installations**: `".venv-clean\Scripts\python.exe" -c "import <module>"`
+
+### Environment Details:
+- Location: `C:\Users\VM-SERVER\Desktop\Oxcart RAG\.venv-clean`
+- PyTorch version: 2.1.0+cu118 (with CUDA support)
+- GPU: NVIDIA GeForce RTX 3060
+- All dependencies for Dolphin parser are installed in this environment
+
+**Never install packages in system Python or other virtual environments unless explicitly requested.**
