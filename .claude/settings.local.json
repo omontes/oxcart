@@ -4,7 +4,15 @@
       "Bash(mmdc:*)",
       "Bash(python:*)",
       "Bash(mkdir:*)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "WebSearch",
+      "Bash(mv:*)"
     ],
     "deny": [],
     "ask": []
