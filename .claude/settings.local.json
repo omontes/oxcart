@@ -12,7 +12,21 @@
       "Bash(rm:*)",
       "Bash(cp:*)",
       "WebSearch",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(pip install:*)",
+      "Bash(\".venv\\Scripts\\activate.bat\")",
+      "Bash(jupyter --version)",
+      "Bash(powershell:*)",
+      "Bash(ren:*)",
+      "Bash(\".venv-clean\\Scripts\\activate\")",
+      "Bash(\".venv-clean\\Scripts\\python.exe\" -m ipykernel install --user --name=venv-oxcart-clean --display-name=\"Python (Oxcart Clean)\")",
+      "Bash(\".venv-clean\\Scripts\\pip.exe\" install ipykernel jupyter)",
+      "Bash(\".venv-final\\Scripts\\activate.bat\")",
+      "Bash(\".venv-clean\\Scripts\\pip.exe\" install ipykernel)",
+      "Bash(.venv-cleanScriptsactivate)",
+      "Bash(\".venv-clean\\Scripts\\python.exe\" -m pip install ipykernel)",
+      "Bash(\".venv-clean\\Scripts\\python.exe\":*)"
     ],
     "deny": [],
     "ask": []
