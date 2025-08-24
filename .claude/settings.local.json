@@ -26,7 +26,8 @@
       "Bash(\".venv-clean\\Scripts\\pip.exe\" install ipykernel)",
       "Bash(.venv-cleanScriptsactivate)",
       "Bash(\".venv-clean\\Scripts\\python.exe\" -m pip install ipykernel)",
-      "Bash(\".venv-clean\\Scripts\\python.exe\":*)"
+      "Bash(\".venv-clean\\Scripts\\python.exe\":*)",
+      "mcp__ide__executeCode"
     ],
     "deny": [],
     "ask": []
