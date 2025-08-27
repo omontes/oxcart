@@ -27,7 +27,13 @@
       "Bash(.venv-cleanScriptsactivate)",
       "Bash(\".venv-clean\\Scripts\\python.exe\" -m pip install ipykernel)",
       "Bash(\".venv-clean\\Scripts\\python.exe\":*)",
-      "mcp__ide__executeCode"
+      "mcp__ide__executeCode",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(findstr:*)",
+      "Bash(del update_notebook.py cleanup_notebook.py)",
+      "Bash(grep:*)",
+      "Bash(chcp:*)"
     ],
     "deny": [],
     "ask": []
