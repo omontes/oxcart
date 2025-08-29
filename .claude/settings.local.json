@@ -33,7 +33,9 @@
       "Bash(findstr:*)",
       "Bash(del update_notebook.py cleanup_notebook.py)",
       "Bash(grep:*)",
-      "Bash(chcp:*)"
+      "Bash(chcp:*)",
+      "WebFetch(domain:weaviate.io)",
+      "WebFetch(domain:docs.weaviate.io)"
     ],
     "deny": [],
     "ask": []
