@@ -35,7 +35,8 @@
       "Bash(grep:*)",
       "Bash(chcp:*)",
       "WebFetch(domain:weaviate.io)",
-      "WebFetch(domain:docs.weaviate.io)"
+      "WebFetch(domain:docs.weaviate.io)",
+      "Bash(sed:*)"
     ],
     "deny": [],
     "ask": []
