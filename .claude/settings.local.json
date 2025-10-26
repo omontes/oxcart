@@ -36,7 +36,11 @@
       "Bash(chcp:*)",
       "WebFetch(domain:weaviate.io)",
       "WebFetch(domain:docs.weaviate.io)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(py --list)",
+      "Bash(py -3.14 -m venv venv)",
+      "Bash(venv\\Scripts\\python.exe:*)",
+      "Bash(\"venv\\Scripts\\pip.exe\" install:*)"
     ],
     "deny": [],
     "ask": []
