@@ -40,7 +40,9 @@
       "Bash(py --list)",
       "Bash(py -3.14 -m venv venv)",
       "Bash(venv\\Scripts\\python.exe:*)",
-      "Bash(\"venv\\Scripts\\pip.exe\" install:*)"
+      "Bash(\"venv\\Scripts\\pip.exe\" install:*)",
+      "Bash(tree:*)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []
