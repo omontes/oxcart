@@ -42,7 +42,8 @@
       "Bash(venv\\Scripts\\python.exe:*)",
       "Bash(\"venv\\Scripts\\pip.exe\" install:*)",
       "Bash(tree:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(\".venv-clean\\Scripts\\python.exe\" -c \"import json; data = json.load(open(''gradio_app.ipynb'', encoding=''utf-8'')); [print(f\"\"{i}: {cell.get(''source'', [''''])[0][:80]}\"\") for i, cell in enumerate(data[''cells'']) if ''getCypherFromUserQuery'' in str(cell.get(''source'', ''''))]\")"
     ],
     "deny": [],
     "ask": []
